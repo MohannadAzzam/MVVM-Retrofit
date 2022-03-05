@@ -36,8 +36,6 @@ public class DetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
 
-
-
         Intent intent = getIntent();
         tv = findViewById(R.id.detailsActivity_tv);
         iv = findViewById(R.id.detailsActivity_iv);
